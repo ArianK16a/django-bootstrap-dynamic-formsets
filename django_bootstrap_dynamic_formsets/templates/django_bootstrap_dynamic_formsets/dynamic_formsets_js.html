@@ -1,2 +1,4 @@
 <script type="text/javascript">
+    var canOrder = {% if can_order %}true{% else %}false{% endif %};
+    var formsetPrefix = "{{ formset.prefix }}";
 </script>
